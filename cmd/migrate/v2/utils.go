@@ -8,7 +8,7 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/forbole/juno/types/config"
+	"github.com/Fueav/juno/types/config"
 )
 
 // GetConfig returns the configuration reading it from the config.yaml file present inside the home directory

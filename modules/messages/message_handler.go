@@ -5,8 +5,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/forbole/juno/database"
-	"github.com/forbole/juno/types"
+	"github.com/Fueav/juno/database"
+	"github.com/Fueav/juno/types"
 )
 
 // HandleMsg represents a message handler that stores the given message inside the proper database table

@@ -11,8 +11,8 @@ import (
 	"github.com/rs/zerolog/log"
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/forbole/juno/modules"
-	"github.com/forbole/juno/types"
+	"github.com/Fueav/juno/modules"
+	"github.com/Fueav/juno/types"
 )
 
 var (

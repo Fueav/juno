@@ -3,12 +3,12 @@ package types
 import (
 	"github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/forbole/juno/logging"
-	"github.com/forbole/juno/types/config"
+	"github.com/Fueav/juno/logging"
+	"github.com/Fueav/juno/types/config"
 
-	"github.com/forbole/juno/database"
-	"github.com/forbole/juno/database/builder"
-	"github.com/forbole/juno/modules/registrar"
+	"github.com/Fueav/juno/database"
+	"github.com/Fueav/juno/database/builder"
+	"github.com/Fueav/juno/modules/registrar"
 )
 
 // Config contains all the configuration for the "parse" command

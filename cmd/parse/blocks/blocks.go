@@ -3,15 +3,15 @@ package blocks
 import (
 	"fmt"
 
-	parsecmdtypes "github.com/forbole/juno/cmd/parse/types"
-	"github.com/forbole/juno/types/utils"
+	parsecmdtypes "github.com/Fueav/juno/cmd/parse/types"
+	"github.com/Fueav/juno/types/utils"
 
 	"github.com/rs/zerolog/log"
 
 	"github.com/spf13/cobra"
 
-	"github.com/forbole/juno/parser"
-	"github.com/forbole/juno/types/config"
+	"github.com/Fueav/juno/parser"
+	"github.com/Fueav/juno/types/config"
 )
 
 const (

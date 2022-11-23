@@ -4,16 +4,16 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/forbole/juno/parser"
+	"github.com/Fueav/juno/parser"
 
-	nodebuilder "github.com/forbole/juno/node/builder"
-	"github.com/forbole/juno/types/config"
+	nodebuilder "github.com/Fueav/juno/node/builder"
+	"github.com/Fueav/juno/types/config"
 
-	"github.com/forbole/juno/database"
+	"github.com/Fueav/juno/database"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	modsregistrar "github.com/forbole/juno/modules/registrar"
+	modsregistrar "github.com/Fueav/juno/modules/registrar"
 )
 
 // GetParserContext setups all the things that can be used to later parse the chain state

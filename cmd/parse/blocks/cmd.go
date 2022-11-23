@@ -3,7 +3,7 @@ package blocks
 import (
 	"github.com/spf13/cobra"
 
-	parsecmdtypes "github.com/forbole/juno/cmd/parse/types"
+	parsecmdtypes "github.com/Fueav/juno/cmd/parse/types"
 )
 
 // NewBlocksCmd returns the Cobra command that allows to fix all the things related to blocks

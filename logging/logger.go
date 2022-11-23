@@ -4,8 +4,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 
-	"github.com/forbole/juno/modules"
-	"github.com/forbole/juno/types"
+	"github.com/Fueav/juno/modules"
+	"github.com/Fueav/juno/types"
 )
 
 const (

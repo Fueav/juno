@@ -5,10 +5,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 
-	"github.com/forbole/juno/node"
-	nodeconfig "github.com/forbole/juno/node/config"
-	"github.com/forbole/juno/node/local"
-	"github.com/forbole/juno/node/remote"
+	"github.com/Fueav/juno/node"
+	nodeconfig "github.com/Fueav/juno/node/config"
+	"github.com/Fueav/juno/node/local"
+	"github.com/Fueav/juno/node/remote"
 )
 
 func BuildNode(cfg nodeconfig.Config, encodingConfig *params.EncodingConfig) (node.Node, error) {

@@ -3,12 +3,12 @@ package main
 import (
 	"os"
 
-	"github.com/forbole/juno/cmd/parse/types"
+	"github.com/Fueav/juno/cmd/parse/types"
 
-	"github.com/forbole/juno/modules/messages"
-	"github.com/forbole/juno/modules/registrar"
+	"github.com/Fueav/juno/modules/messages"
+	"github.com/Fueav/juno/modules/registrar"
 
-	"github.com/forbole/juno/cmd"
+	"github.com/Fueav/juno/cmd"
 )
 
 func main() {

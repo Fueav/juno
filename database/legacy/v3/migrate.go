@@ -6,9 +6,9 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	"github.com/forbole/juno/types/config"
+	"github.com/Fueav/juno/types/config"
 
-	types "github.com/forbole/juno/database/migrate/utils"
+	types "github.com/Fueav/juno/database/migrate/utils"
 )
 
 // Migrate implements database.Migrator

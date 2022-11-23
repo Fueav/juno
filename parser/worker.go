@@ -7,22 +7,22 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	"github.com/forbole/juno/logging"
+	"github.com/Fueav/juno/logging"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/forbole/juno/database"
-	"github.com/forbole/juno/types/config"
+	"github.com/Fueav/juno/database"
+	"github.com/Fueav/juno/types/config"
 
-	"github.com/forbole/juno/modules"
+	"github.com/Fueav/juno/modules"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	tmctypes "github.com/tendermint/tendermint/rpc/core/types"
 	tmtypes "github.com/tendermint/tendermint/types"
 
-	"github.com/forbole/juno/node"
-	"github.com/forbole/juno/types"
-	"github.com/forbole/juno/types/utils"
+	"github.com/Fueav/juno/node"
+	"github.com/Fueav/juno/types"
+	"github.com/Fueav/juno/types/utils"
 )
 
 // Worker defines a job consumer that is responsible for getting and

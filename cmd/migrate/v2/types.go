@@ -3,12 +3,12 @@ package v2
 import (
 	"time"
 
-	loggingconfig "github.com/forbole/juno/logging/config"
-	"github.com/forbole/juno/modules/pruning"
-	"github.com/forbole/juno/modules/telemetry"
-	nodeconfig "github.com/forbole/juno/node/config"
-	pricefeedconfig "github.com/forbole/juno/pricefeed"
-	"github.com/forbole/juno/types/config"
+	loggingconfig "github.com/Fueav/juno/logging/config"
+	"github.com/Fueav/juno/modules/pruning"
+	"github.com/Fueav/juno/modules/telemetry"
+	nodeconfig "github.com/Fueav/juno/node/config"
+	pricefeedconfig "github.com/Fueav/juno/pricefeed"
+	"github.com/Fueav/juno/types/config"
 )
 
 type Config struct {

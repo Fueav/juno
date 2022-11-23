@@ -3,11 +3,11 @@ package genesis
 import (
 	"github.com/spf13/cobra"
 
-	parsecmdtypes "github.com/forbole/juno/cmd/parse/types"
+	parsecmdtypes "github.com/Fueav/juno/cmd/parse/types"
 
-	"github.com/forbole/juno/modules"
-	nodeconfig "github.com/forbole/juno/node/config"
-	"github.com/forbole/juno/types/utils"
+	"github.com/Fueav/juno/modules"
+	nodeconfig "github.com/Fueav/juno/node/config"
+	"github.com/Fueav/juno/types/utils"
 )
 
 const (

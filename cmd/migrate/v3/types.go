@@ -1,14 +1,14 @@
 package v3
 
 import (
-	databaseconfig "github.com/forbole/juno/database/config"
-	loggingconfig "github.com/forbole/juno/logging/config"
-	"github.com/forbole/juno/modules/pruning"
-	"github.com/forbole/juno/modules/telemetry"
-	nodeconfig "github.com/forbole/juno/node/config"
-	parserconfig "github.com/forbole/juno/parser/config"
-	pricefeedconfig "github.com/forbole/juno/pricefeed"
-	"github.com/forbole/juno/types/config"
+	databaseconfig "github.com/Fueav/juno/database/config"
+	loggingconfig "github.com/Fueav/juno/logging/config"
+	"github.com/Fueav/juno/modules/pruning"
+	"github.com/Fueav/juno/modules/telemetry"
+	nodeconfig "github.com/Fueav/juno/node/config"
+	parserconfig "github.com/Fueav/juno/parser/config"
+	pricefeedconfig "github.com/Fueav/juno/pricefeed"
+	"github.com/Fueav/juno/types/config"
 )
 
 // Config defines all necessary juno configuration parameters.
