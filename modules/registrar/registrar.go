@@ -4,20 +4,20 @@ import (
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/forbole/juno/v3/node"
+	"github.com/Fueav/juno/node"
 
-	"github.com/forbole/juno/v3/modules/telemetry"
+	"github.com/Fueav/juno/modules/telemetry"
 
-	"github.com/forbole/juno/v3/logging"
+	"github.com/Fueav/juno/logging"
 
-	"github.com/forbole/juno/v3/types/config"
+	"github.com/Fueav/juno/types/config"
 
-	"github.com/forbole/juno/v3/modules/pruning"
+	"github.com/Fueav/juno/modules/pruning"
 
-	"github.com/forbole/juno/v3/modules"
-	"github.com/forbole/juno/v3/modules/messages"
+	"github.com/Fueav/juno/modules"
+	"github.com/Fueav/juno/modules/messages"
 
-	"github.com/forbole/juno/v3/database"
+	"github.com/Fueav/juno/database"
 )
 
 // Context represents the context of the modules registrar

@@ -5,17 +5,17 @@ import (
 	"io/ioutil"
 	"time"
 
-	parsecmdtypes "github.com/forbole/juno/v3/cmd/parse/types"
-	parserconfig "github.com/forbole/juno/v3/parser/config"
+	parsecmdtypes "github.com/Fueav/juno/cmd/parse/types"
+	parserconfig "github.com/Fueav/juno/parser/config"
 
 	"gopkg.in/yaml.v3"
 
-	v2 "github.com/forbole/juno/v3/cmd/migrate/v2"
-	"github.com/forbole/juno/v3/database"
-	databaseconfig "github.com/forbole/juno/v3/database/config"
-	v3db "github.com/forbole/juno/v3/database/legacy/v3"
-	"github.com/forbole/juno/v3/database/postgresql"
-	"github.com/forbole/juno/v3/types/config"
+	v2 "github.com/Fueav/juno/cmd/migrate/v2"
+	"github.com/Fueav/juno/database"
+	databaseconfig "github.com/Fueav/juno/database/config"
+	v3db "github.com/Fueav/juno/database/legacy/v3"
+	"github.com/Fueav/juno/database/postgresql"
+	"github.com/Fueav/juno/types/config"
 )
 
 // RunMigration runs the migrations from v2 to v3
