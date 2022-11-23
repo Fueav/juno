@@ -8,14 +8,14 @@ import (
 
 	"github.com/jmoiron/sqlx"
 
-	"github.com/forbole/juno/v3/logging"
+	"github.com/forbole/juno/logging"
 
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 	"github.com/lib/pq"
 
-	"github.com/forbole/juno/v3/database"
-	"github.com/forbole/juno/v3/types"
-	"github.com/forbole/juno/v3/types/config"
+	"github.com/forbole/juno/database"
+	"github.com/forbole/juno/types"
+	"github.com/forbole/juno/types/config"
 )
 
 // Builder creates a database connection with the given database connection info

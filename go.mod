@@ -1,4 +1,4 @@
-module github.com/forbole/juno/v3
+module github.com/forbole/juno
 
 go 1.18
 

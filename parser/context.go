@@ -3,11 +3,11 @@ package parser
 import (
 	"github.com/cosmos/cosmos-sdk/simapp/params"
 
-	"github.com/forbole/juno/v3/logging"
-	"github.com/forbole/juno/v3/node"
+	"github.com/forbole/juno/logging"
+	"github.com/forbole/juno/node"
 
-	"github.com/forbole/juno/v3/database"
-	"github.com/forbole/juno/v3/modules"
+	"github.com/forbole/juno/database"
+	"github.com/forbole/juno/modules"
 )
 
 // Context represents the context that is shared among different workers
